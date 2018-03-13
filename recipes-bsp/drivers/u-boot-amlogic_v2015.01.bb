@@ -23,7 +23,6 @@ SRCBRANCH = "n-amlogic-openlinux-20170606"
 SRCREPO = "git://github.com/BayLibre/u-boot.git"
 
 PV = "v2015.01+git${SRCPV}"
-PR = "r0"
 
 PROVIDES =+ "u-boot"
 

@@ -15,7 +15,6 @@ COMPATIBLE_MACHINE = "hardkernel-odroidc2"
 SRCREV = "205c7b3259559283161703a1a200b787c2c445a5"
 
 PV = "v2015.01+git${SRCPV}"
-PR = "r0"
 
 PROVIDES =+ "u-boot"
 

@@ -15,7 +15,6 @@ COMPATIBLE_MACHINE = "khadas-vim"
 SRCREV = "52d10ef9a0468f95c9f5cf85c578ca98f099bda1"
 
 PV = "v2015.01+git${SRCPV}"
-PR = "r0"
 
 PROVIDES =+ "u-boot"
 
