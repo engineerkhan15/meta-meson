@@ -11,6 +11,6 @@ UBOOT_ENTRYSYMBOL = "0x1080000"
 IMAGE_BOOT_FILES ?= "uImage"
 
 IMAGE_ROOTFS_SIZE = "1048576"
-IMAGE_FSTYPES = "ext4 tar.bz2"
+IMAGE_FSTYPES += "ext4 sdcard"
 WKS_FILE = "sdimage-bootpart.wks"
 do_image_wic[depends] += "mtools-native:do_populate_sysroot dosfstools-native:do_populate_sysroot"
